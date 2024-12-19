@@ -6,11 +6,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "doctrine/dbal": "^3.6",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.4",
         "jeroennoten/laravel-adminlte": "^3.8.3",
         "kreait/firebase-php": "^5.25",
-        "laravel/framework": "^9.0",
+        "laravel/framework": "^9.40",
         "laravel/jetstream": "^2.4",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
