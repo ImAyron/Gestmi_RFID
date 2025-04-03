@@ -41,9 +41,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     $countTag=$tag->count();
 
     $lavanderia=leitura::where('company_id','Lavanderia')->distinct()->count('EPC');  
-   
+    
+    $quisCount = new ItemController;
+    $quisCount = $quisCount->lavanderia(); 
 
-    return view('dashboard',['countTag'=>$countTag,'count'=>$count,'countA'=>$countA,'lavanderia'=>$lavanderia]);
+    return view('dashboard',['countTag'=>$countTag,'count'=>$count,'countA'=>$countA,'lavanderia'=>$lavanderia, 'quisCount' => $quisCount]);
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {

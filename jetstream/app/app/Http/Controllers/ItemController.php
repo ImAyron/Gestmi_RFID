@@ -31,7 +31,11 @@ class ItemController extends Controller
     public function lavanderia()
     {
         //DB::SELECT('select count(*) from items where codigo="QUIS"')
-       $result='a';
+    //    $result='a';
+        
+        $result = Item::where('codigo', 'DUCI')->count();
+        echo $result;
+
        
        return $result;
       

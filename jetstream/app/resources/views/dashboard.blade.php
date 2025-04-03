@@ -72,7 +72,7 @@
                         <!-- small box -->
                         <div class="small-box bg-danger">
                             <div class="inner">
-                                <h3>{{ $lavanderia }}</h3>
+                                <h3>{{ $quisCount }}</h3>
 
                                 <p>Itens na lavanderia </p>
                             </div>
