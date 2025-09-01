@@ -1,11 +1,11 @@
 
 
 # Sistema Integrado Gestmi com RFID
+![GitHub repo size](https://img.shields.io/github/repo-size/ImAyron/Gestmi_RFID?style=for-the-badge )
+![GitHub language count](https://img.shields.io/github/languages/count/ImAyron/Gestmi_RFID?style=for-the-badge )
+![GitHub forks](https://img.shields.io/github/forks/ImAyron/Gestmi_RFID?style=social )
+![GitHub stars](https://img.shields.io/github/stars/ImAyron/Gestmi_RFID?style=social )
 
-![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/IC-jet-admin?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/seuusuario/IC-jet-admin?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/seuusuario/IC-jet-admin?style=social)
-![GitHub stars](https://img.shields.io/github/stars/seuusuario/IC-jet-admin?style=social)
 
 Este repositório contém o código-fonte do **Sistema Integrado Gestmi**, uma solução de gerenciamento que utiliza uma antena RFID para leitura e rastreamento de objetos. O sistema foi desenvolvido com o framework Laravel e opera na faixa de frequência de 900 MHz.
 
